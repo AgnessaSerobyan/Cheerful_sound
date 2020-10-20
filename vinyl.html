@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+<link rel="icon" type="image/png" href="images/favicon.png"/>
+
+    <meta charset="utf-8">
+    <title>История винила</title>
+      </head>
+    <style media="screen">
+      @import "reset.css";
+
+
+nav{
+  width: 960px;
+  margin: 0 auto;
+}
+nav:before {
+  content: none;
+  display: block;
+  height: 300px;
+  width: 100%;
+  background: green;
+  z-index: -1;
+  position: absolute;
+}
+  h1{
+      position: fixed;
+      width: 602px;
+      height: 124px;
+      left: 71px;
+      top: 54px;
+
+        font-family: IBM Plex Serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 55px;
+        line-height: 71px;
+        z-index: 100;
+
+        color: #000000;
+        }
+
+
+
+  h2{
+        position: fixed;
+        width: 275px;
+        height: 39px;
+        left: 698px;
+        top: 77px;
+
+        font-family: IBM Plex Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 39px;
+        z-index: 100;
+        /* identical to box height */
+        color: #000000;
+        z-index: 100;
+        }
+
+
+
+
+  h3{
+      position: fixed;
+      width: 275px;
+      height: 39px;
+      left: 936px;
+      top: 77px;
+
+      font-family: IBM Plex Serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 39px;
+      z-index: 100;
+      /* identical to box height */
+      color: #000000;
+      z-index: 100;
+      }
+
+  .box {
+      position: fixed;
+      width: 1280px;
+      height: 178px;
+      left: 0px;
+      top: 0px;
+
+      background: #FFFFFF;
+      border: 1px solid #000000;
+      z-index: 10;
+      }
+
+      .border {
+        position: absolute;
+    width: 1187px;
+    height: 1096px;
+    left: 42px;
+    top: 867px;
+
+    background: #F7F7F7;
+    border: 8px solid #000000;
+    box-sizing: border-box;
+    z-index: 1;
+
+
+    }
+
+    .BigCicrle{
+      position: absolute;
+width: 1179px;
+height: 1159px;
+left: 47px;
+top: 340px;
+
+background: #000000;
+      border-radius: 50%;
+
+      }
+
+    .MediumCircle{
+      position: absolute;
+width: 529px;
+height: 593px;
+left: 379px;
+top: 656px;
+
+background: #FFB802;
+border-radius: 50%;
+}
+
+    .LittleCircle{
+      position: absolute;
+width: 424px;
+height: 477px;
+left: 432px;
+top: 714px;
+
+background: #FFB802;
+border: 2px solid #000000;
+box-sizing: border-box;
+    border-radius: 50%;
+
+    }
+    .VeryLittleCircle{
+      position: absolute;
+width: 76px;
+height: 75px;
+left: 597px;
+top: 856px;
+
+background: #000000;
+border-radius: 50%;
+    }
+    .cover{
+      position: absolute;
+  left: 50px;
+  top: 875px;
+z-index: 1;
+    }
+
+    h4{  position: absolute;
+width: 862px;
+height: 161px;
+left: 208px;
+top: 2120px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: 300;
+font-size: 99px;
+line-height: 129px;
+
+color: #FFB802;
+
+
+
+}
+  p1{position: absolute;
+width: 1095px;
+height: 417px;
+left: 114px;
+top: 2364px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 57px;
+/* or 142% */
+
+
+color: #000000;}
+
+    p2{
+      position: absolute;
+width: 1099px;
+height: 509px;
+left: 114px;
+top: 2781px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 57px;
+/* or 142% */
+
+
+color: #000000;
+
+
+    }
+
+    .ten{
+      position: absolute;
+width: 1280px;
+height: 2078px;
+left: 0px;
+top: 3537px;
+
+background: #FFB802;
+    }
+
+    h5{
+      position: absolute;
+width: 1023px;
+height: 161px;
+left: 355px;
+top: 3607px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: 300;
+font-size: 145px;
+line-height: 188px;
+
+color: #000000;
+z-index: 100;
+
+    }
+
+    p3{
+      position: absolute;
+width: 973px;
+height: 138px;
+left: 194px;
+top: 3846px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 45px;
+text-align: center;
+
+color: #000000;
+z-index: 100;
+
+    }
+
+    .one01{
+      position: absolute;
+  width: 1280px;
+  height: 2078px;
+  left: 0px;
+  top: 3525px;
+
+  background: #FFB802;
+
+    }
+
+    .two02{
+      position: absolute;
+width: 1288px;
+height: 241px;
+left: -8px;
+top: 5603px;
+
+background: #FFA902;
+    }
+
+    h6{
+      position: absolute;
+width: 425px;
+height: 135px;
+left: 81px;
+top: 5671px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 44px;
+
+color: #000000;
+
+    }
+
+    h7{
+      position: absolute;
+width: 522px;
+height: 115px;
+left: 578px;
+top: 5671px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 44px;
+
+color: #000000;
+
+    }
+    h9{
+      position: absolute;
+  width: 762px;
+  height: 161px;
+  left: 263px;
+  top: 3609px;
+
+  font-family: IBM Plex Serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 145px;
+  line-height: 188px;
+
+  color: #000000;
+
+
+
+    }
+
+    p4{
+      position: absolute;
+width: 998px;
+height: 92px;
+left: 149px;
+top: 3826px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 45px;
+text-align: center;
+
+color: #000000;
+
+    }
+
+.plate{
+
+position: absolute;
+width: 1187.91px;
+height: 1426px;
+left: 60.47px;
+top: 4074px;
+}
+
+
+a.history_anchor {
+    display: block;
+    position: relative;
+    top: 1912px;
+    visibility: hidden;
+}
+
+a.vinyl_anchor {
+  display: block;
+  position: relative;
+  top: 3359px;
+  visibility: hidden;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+      </style>
+
+  <ul class="menu">
+    <li><История</li>
+    <li><a href="#">Пластинки</a></li>
+  </ul>
+  <h1>Неунывающий звук</h1>
+  <body>
+
+<nav>
+    <h2><a href="#history">история</a></h2>
+    <h3><a a href="#vinyl">пластинки</a></h3>
+</nav>
+        <div class="box"></div>
+      <div class="border"></div>
+      <div class="BigCicrle"></div>
+      <div class="MediumCircle"></div>
+      <div class="LittleCircle"></div>
+      <div class="VeryLittleCircle"></div>
+      <img class="cover" src="cover.png" alt="cover">
+      <a class="history_anchor" id="history"></a>
+      <h4>История создания</h4>
+      <p1>Пластинки в том виде, в каком мы знаем их, придумал Эмиль Берлинер в 1897 году.
+Он потратил  10 лет на поиски идеального материала
+для их изготовления и в конечном итоге решил,
+что лучшим материалом для создания платсинок будет шеллак – вещество, которое вырабатывают тропические насекомые из Южной Азии.</p1>
+      <p2> До середины 1960-х практически все пластинки вмещали в себя буквально две песни: с одной стороны
+        был какой-нибудь хит, ради которого и покупали целую пластинку, а с другой стороны – уже совершенно другая песня, которая шла «в довесок». Продавали пластинки, как правило, в газетных конвертах без оформления.</p2>
+
+
+      <div class="ten"></div>
+      <a class="vinyl_anchor" id="vinyl"></a>
+      <div class="one01"></div>
+      <div class="two02"></div>
+      <h9>Пластинки</h9>
+      <p4>самые известные пластинки за все время сущетсвования винила, которые покорили сердца тысяч людей</p4>
+      <img class="plate" src="Group 33.png" alt="plate">
+      <h6>Агнесса Серобян</h6>
+      <h7>инстаграм:
+@_agnessa_s_</h7>
+  </body>
+</html>
