@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'NATRON Rough';
+    src: url('NATRONRough-Bold.eot');
+    src: local('NATRON Rough Bold'), local('NATRONRough-Bold'),
+        url('NATRONRough-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NATRONRough-Bold.woff2') format('woff2'),
+        url('NATRONRough-Bold.woff') format('woff'),
+        url('NATRONRough-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NATRON Rough';
+    src: url('NATRONRough-Medium.eot');
+    src: local('NATRON Rough Medium'), local('NATRONRough-Medium'),
+        url('NATRONRough-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NATRONRough-Medium.woff2') format('woff2'),
+        url('NATRONRough-Medium.woff') format('woff'),
+        url('NATRONRough-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

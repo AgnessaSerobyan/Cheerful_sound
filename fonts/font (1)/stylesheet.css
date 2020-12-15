@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Sometimes';
+    src: url('Sometimes-Bold.eot');
+    src: local('Sometimes Bold'), local('Sometimes-Bold'),
+        url('Sometimes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Sometimes-Bold.woff2') format('woff2'),
+        url('Sometimes-Bold.woff') format('woff'),
+        url('Sometimes-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sometimes';
+    src: url('Sometimes.eot');
+    src: local('Sometimes'),
+        url('Sometimes.eot?#iefix') format('embedded-opentype'),
+        url('Sometimes.woff2') format('woff2'),
+        url('Sometimes.woff') format('woff'),
+        url('Sometimes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

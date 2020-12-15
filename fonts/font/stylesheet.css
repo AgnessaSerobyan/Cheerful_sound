@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Dodo';
+    src: url('Dodo-Regular.eot');
+    src: local('Dodo Regular'), local('Dodo-Regular'),
+        url('Dodo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Dodo-Regular.woff2') format('woff2'),
+        url('Dodo-Regular.woff') format('woff'),
+        url('Dodo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
